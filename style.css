@@ -1,0 +1,93 @@
+:root{
+    --piece-one-color: pink;
+    --piece-one-color-dark: rgb(190, 142, 150);
+    --piece-two-color: lightblue;
+    --piece-two-color-dark: rgb(133, 167, 179);
+    --empty-one-color: white;
+    --empty-one-color-dark: rgb(218, 218, 218);
+    --empty-two-color: gray;
+
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size: 5vh;
+}
+table{
+    width: 78vh;
+    height: 78vh;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+td{
+    width: 9.75vh;
+    height: 9vh;
+}
+#list1{
+    position: absolute;
+    width: 30vh;
+    height: auto;
+    background-color: lightgray;
+    left: 75vw;
+    top: 5vw
+}
+#list2{
+    position: absolute;
+    width: 30vh;
+    height: auto;
+    background-color: lightgray;
+    right: 75vw;
+    top: 5vw
+}
+#meme-box{
+    position: absolute;
+    background-color: white;
+    height: 30vw;
+    width: 30vw;
+    top: 20vh;
+    left: 35vw;
+    z-index: 1000;
+    visibility: hidden;
+}
+button{
+    background-color: none;
+    width:100%;
+    height: 100%;
+    border:none;
+}
+#instructions-button{
+    width: auto;
+    height: auto;
+    border: default;
+}
+#instructions{
+    visibility: hidden;
+}
+.selected{
+    border:1px solid black;
+}
+.piece-one{
+    background-color: var(--piece-one-color);
+    border-radius: 100%;
+}
+.piece-one:hover:not([disabled]){
+    background-color: var(--piece-one-color-dark);
+}
+.piece-one:active{
+    background-color: var(--piece-one-color-dark);
+}
+.piece-two{
+    background-color: var(--piece-two-color);
+    border-radius: 100%;
+}
+.empty-one{
+    background-color: var(--empty-one-color);
+}
+.empty-one:hover:not([disabled]){
+    background-color: var(--empty-one-color-dark);
+}
+.empty-two{
+    background-color: var(--empty-two-color);
+}

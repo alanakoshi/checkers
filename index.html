@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkers</title>
+</head>
+<body>
+    <h1>Checkers</h1>
+    <div>
+        <table>
+            <tr><td id="A1"><button id="buttonA1" onclick="clicked(this.id)">A1</button></td><td id="A2"><button id="buttonA2" onclick="clicked(this.id)">A2</button></td>
+                <td id="A3"><button id="buttonA3" onclick="clicked(this.id)">A3</button></td><td id="A4"><button id="buttonA4" onclick="clicked(this.id)">A4</button></td>
+                <td id="A5"><button id="buttonA5" onclick="clicked(this.id)">A5</button></td><td id="A6"><button id="buttonA6" onclick="clicked(this.id)">A6</button></td>
+                <td id="A7"><button id="buttonA7" onclick="clicked(this.id)">A7</button></td><td id="A8"><button id="buttonA8" onclick="clicked(this.id)">A8</button></td>
+            </tr>  
+            <tr><td id="B1"><button id="buttonB1" onclick="clicked(this.id)">B1</button></td><td id="B2"><button id="buttonB2" onclick="clicked(this.id)">B2</button></td>
+                <td id="B3"><button id="buttonB3" onclick="clicked(this.id)">B3</button></td><td id="B4"><button id="buttonB4" onclick="clicked(this.id)">B4</button></td>
+                <td id="B5"><button id="buttonB5" onclick="clicked(this.id)">B5</button></td><td id="B6"><button id="buttonB6" onclick="clicked(this.id)">B6</button></td>
+                <td id="B7"><button id="buttonB7" onclick="clicked(this.id)">B7</button></td><td id="B8"><button id="buttonB8" onclick="clicked(this.id)">B8</button></td>
+            </tr> 
+            <tr><td id="C1"><button id="buttonC1" onclick="clicked(this.id)">C1</button></td><td id="C2"><button id="buttonC2" onclick="clicked(this.id)">C2</button></td>
+                <td id="C3"><button id="buttonC3" onclick="clicked(this.id)">C3</button></td><td id="C4"><button id="buttonC4" onclick="clicked(this.id)">C4</button></td>
+                <td id="C5"><button id="buttonC5" onclick="clicked(this.id)">C5</button></td><td id="C6"><button id="buttonC6" onclick="clicked(this.id)">C6</button></td>
+                <td id="C7"><button id="buttonC7" onclick="clicked(this.id)">C7</button></td><td id="C8"><button id="buttonC8" onclick="clicked(this.id)">C8</button></td>
+            </tr> 
+            <tr><td id="D1"><button id="buttonD1" onclick="clicked(this.id)">D1</button></td><td id="D2"><button id="buttonD2" onclick="clicked(this.id)">D2</button></td>
+                <td id="D3"><button id="buttonD3" onclick="clicked(this.id)">D3</button></td><td id="D4"><button id="buttonD4" onclick="clicked(this.id)">D4</button></td>
+                <td id="D5"><button id="buttonD5" onclick="clicked(this.id)">D5</button></td><td id="D6"><button id="buttonD6" onclick="clicked(this.id)">D6</button></td>
+                <td id="D7"><button id="buttonD7" onclick="clicked(this.id)">D7</button></td><td id="D8"><button id="buttonD8" onclick="clicked(this.id)">D8</button></td>
+            </tr> 
+            <tr><td id="E1"><button id="buttonE1" onclick="clicked(this.id)">E1</button></td><td id="E2"><button id="buttonE2" onclick="clicked(this.id)">E2</button></td>
+                <td id="E3"><button id="buttonE3" onclick="clicked(this.id)">E3</button></td><td id="E4"><button id="buttonE4" onclick="clicked(this.id)">E4</button></td>
+                <td id="E5"><button id="buttonE5" onclick="clicked(this.id)">E5</button></td><td id="E6"><button id="buttonE6" onclick="clicked(this.id)">E6</button></td>
+                <td id="E7"><button id="buttonE7" onclick="clicked(this.id)">E7</button></td><td id="E8"><button id="buttonE8" onclick="clicked(this.id)">E8</button></td>
+            </tr> 
+            <tr><td id="F1"><button id="buttonF1" onclick="clicked(this.id)">F1</button></td><td id="F2"><button id="buttonF2" onclick="clicked(this.id)">F2</button></td>
+                <td id="F3"><button id="buttonF3" onclick="clicked(this.id)">F3</button></td><td id="F4"><button id="buttonF4" onclick="clicked(this.id)">F4</button></td>
+                <td id="F5"><button id="buttonF5" onclick="clicked(this.id)">F5</button></td><td id="F6"><button id="buttonF6" onclick="clicked(this.id)">F6</button></td>
+                <td id="F7"><button id="buttonF7" onclick="clicked(this.id)">F7</button></td><td id="F8"><button id="buttonF8" onclick="clicked(this.id)">F8</button></td>
+            </tr> 
+            <tr><td id="G1"><button id="buttonG1" onclick="clicked(this.id)">G1</button></td><td id="G2"><button id="buttonG2" onclick="clicked(this.id)">G2</button></td>
+                <td id="G3"><button id="buttonG3" onclick="clicked(this.id)">G3</button></td><td id="G4"><button id="buttonG4" onclick="clicked(this.id)">G4</button></td>
+                <td id="G5"><button id="buttonG5" onclick="clicked(this.id)">G5</button></td><td id="G6"><button id="buttonG6" onclick="clicked(this.id)">G6</button></td>
+                <td id="G7"><button id="buttonG7" onclick="clicked(this.id)">G7</button></td><td id="G8"><button id="buttonG8" onclick="clicked(this.id)">G8</button></td>
+            </tr>
+            <tr><td id="H1"><button id="buttonH1" onclick="clicked(this.id)">H1</button></td><td id="H2"><button id="buttonH2" onclick="clicked(this.id)">H2</button></td>
+                <td id="H3"><button id="buttonH3" onclick="clicked(this.id)">H3</button></td><td id="H4"><button id="buttonH4" onclick="clicked(this.id)">H4</button></td>
+                <td id="H5"><button id="buttonH5" onclick="clicked(this.id)">H5</button></td><td id="H6"><button id="buttonH6" onclick="clicked(this.id)">H6</button></td>
+                <td id="H7"><button id="buttonH7" onclick="clicked(this.id)">H7</button></td><td id="H8"><button id="buttonH8" onclick="clicked(this.id)">H8</button></td>
+            </tr> 
+        </table>
+
+        <div>
+            <p></p>
+            <button id="instructions-button" onclick="instructionsToggle()" value="OFF">Instructions</button>
+            <p id="instructions">
+                - Checker pieces can only move once diagonally<br>
+                - It may only move one way to the other side of the board unless it is crowned<br>
+                - Crowned pieces may move diagonally in any direction<br>
+                - It may eat the opponent's piece it there is an empty space on the other side<br>
+                - Click the piece you want to move, and then click the open space that you would like to move to<br>
+                </p>
+        </div>
+        <div id="list1">
+            <p>Pink Pieces Left</p>
+            <p id="list1-content"></p>
+        </div>
+        <div id="list2">
+            <p>Blue Pieces Left</p>
+            <p id="list2-content"></p>
+        </div>
+        <div >
+            <p id="meme-picture"><img src="1.jpg" id="meme-box"></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0-rc.1/jquery-ui.js"></script>
+
+    <script src="game.js"></script>
+</body>
+</html>
